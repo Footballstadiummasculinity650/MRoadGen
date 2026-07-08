@@ -12,7 +12,7 @@ Watch the full feature breakdown and workflow guide to get started:
 
 ---
 
-## 🚀 Key Features (V1)
+## Key Features (V1)
 
 - **Raycast-Based Placement:** Effortlessly map out your road networks. Curves project onto the terrain using the edges of the road surface.
 - **Automated Embankment Generation:** Automatically calculates and creates side slopes (embankments) that smoothly bridge the gap between the flat road surface and irregular terrain heights.
@@ -24,7 +24,7 @@ Watch the full feature breakdown and workflow guide to get started:
 
 ---
 
-## 🛠️ Use
+## Use
 
 1. Use Blender 5.0 and above.
 2. Download the .blend file.
@@ -32,10 +32,10 @@ Watch the full feature breakdown and workflow guide to get started:
 4. Checkout the documentation video on all the settings/controls.
 
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, bug reports, and feature requests are welcome! Feel free to open an issue or submit a pull request if you want to help make RoadGen even better.
 
-## 📄 License
+## License
 
 This project is licensed under the creative commons zero v1.0 universal license. 
